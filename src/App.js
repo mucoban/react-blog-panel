@@ -3,6 +3,7 @@ import Navbar from "./components/navbar.component";
 import LoginPage from "./pages/loginPage.component";
 import HomePage from "./pages/homePage.component";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
             <Route path="/" element={<HomePage />} />
         </Routes>
      </BrowserRouter>
-
     </div>
   );
 }
