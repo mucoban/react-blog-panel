@@ -1,7 +1,8 @@
 import {Link} from "react-router-dom";
 
-const Navbar = () => {
-    return (<div className="navbar">
+const Sidebar = () => {
+    return (<div className="sidebar">
+        <Link className="logo" to="/">React Admin Panel</Link>
         <ul>
             <li><Link to="/login">Login</Link></li>
             <li><Link to="/">Home</Link></li>
@@ -9,4 +10,4 @@ const Navbar = () => {
     </div>)
 }
 
-export default Navbar
+export default Sidebar
