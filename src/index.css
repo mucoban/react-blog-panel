@@ -62,8 +62,10 @@ code {
   flex-direction: column;
 }
 .page-content-inner {
-  background: gray;
+  background: #f5f8fa;
   flex-grow: 1;
+  text-align: left;
+  padding: 10px;
 }
 
 .wrapper {

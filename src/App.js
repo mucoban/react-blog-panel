@@ -5,6 +5,8 @@ import LoginPage from "./pages/loginPage.component";
 import HomePage from "./pages/homePage.component";
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Sidebar from "./components/sidebar.component";
+import PagesComponent from "./pages/Pages.component";
+import EditPage from "./pages/EditPage.component";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
                      <Routes>
                          <Route path="/login" element={<LoginPage />} />
                          <Route path="/" element={<HomePage />} />
+                         <Route path="/pages" element={<PagesComponent />} />
+                         <Route path="/pages/:id" element={<EditPage />} />
+                         <Route path="/pages/create" element={<EditPage />} />
                      </Routes>
                  </div>
              </div>

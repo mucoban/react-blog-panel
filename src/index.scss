@@ -38,7 +38,7 @@ code {
 .page-content {
   flex-grow: 1;
   display: flex; flex-direction: column;
-  &-inner { background: gray; flex-grow: 1; }
+  &-inner { background: #f5f8fa; flex-grow: 1; text-align: left; padding: 10px; }
 }
 
 .wrapper { display: flex; height: 100vh }
